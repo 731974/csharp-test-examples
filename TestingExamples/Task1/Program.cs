@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace Task1
+﻿namespace Task1
 {
     public class Program
     {
@@ -12,7 +10,7 @@ namespace Task1
 
         public void Start()
         {
-                
+
         }
 
         public double Calculator(double val1, double val2)

@@ -24,7 +24,7 @@ namespace Task1.Tests
             double expected = val1 * val2;
 
             // Act
-            var result = _program.Calculator(val1, val2);  
+            var result = _program.Calculator(val1, val2);
 
             // Assert
             Assert.That(result, Is.EqualTo(expected));
