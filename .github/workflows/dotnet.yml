@@ -23,6 +23,6 @@ jobs:
     - name: Restore dependencies
       run: dotnet restore TestingExamples/TestingExamples.sln
     - name: Build
-      run: dotnet build --no-restore
-    - name: Test
-      run: dotnet test --no-build --verbosity normal
+      run: dotnet build TestingExamples/TestingExamples.sln --configuration Release --no-restore
+    - name: Run Tests
+      run: dotnet test TestingExamples/TestingExamples.sln --no-build --verbosity normal
