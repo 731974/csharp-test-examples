@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using Task1;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace Task1.Tests
 {
